@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registreer nu</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <a href="/">&#x1F519; Ga terug</a>
+    </header>
+
+    <h1>Registreer nu!</h1>
+
+    <form id="register" action="thanks.html">
+        <fieldset>
+            <legend>Je gegevens</legend>
+            <div>
+                <label for="user-name">Gebruikersnaam:</label>
+                <input id="user-name" name="user-name" type="email" placeholder="Voer hier je mailadres in" required>
+            </div>
+            <div>
+                <label for="phone">Telefoonnummer:</label>
+                <input id="phone" name="phone" type="tel" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="000-00-000" required>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Extra informatie</legend>
+
+            <div>
+                <label>Hoe heb je van ons gehoord?</label><br>
+
+                <div>
+                <input type="radio" id="github" name="ref" />
+                <label for="github">Via GitHub</label><br>
+                </div>
+
+                <div>
+                <input type="radio" id="lecture" name="ref" />
+                <label for="lecture">Via het college over testen</label>
+                </div>
+
+                <div>
+                <input type="radio" id="oral" name="ref" />
+                <label for="oral">Mond-tot-mond reclame</label><br>
+                </div>
+
+                <div>
+                <input type="radio" id="other" name="ref" />
+                <label for="other">Anders, namelijk:</label>
+                <input type="text"/><br><br>
+                </div>
+            </div>
+
+            <div>
+                <input type="checkbox">
+                <label>Ik wil graag op de hoogte blijven van nieuwtjes</label>
+            </div>
+        </fieldset>
+
+        <div class="submitDiv">
+            <input name="Verstuur formulier" type="submit" value="Verstuur formulier">
+        </div>
+    </form>
+</body>
+</html>
