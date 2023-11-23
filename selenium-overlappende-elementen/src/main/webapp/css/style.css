@@ -1,0 +1,9 @@
+input.btn {
+    position: absolute;
+    top: 15%;
+    z-index: -1;
+}
+
+header {
+    background-color: red;
+}
