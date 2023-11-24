@@ -21,6 +21,12 @@ wordt gezoomd wel goed.
 - [Dependency Injection](dependency-injection).
 Een triviaal voorbeeldje van hoe je Dependency Injection in Java gebruikt.
 
+- [Mocken bij tests](mocking).
+Een voorbeeld waarbij een MYSQL database wordt gemockt tijdens tests.
+Op die manier hoef je geen verbinding te maken met een database en kan je
+toch allerlei tests uitvoeren waarbij het ophalen van een database nodig is.
+Stel je voor hoe je dit kunt combineren met Dependency Injection.
+
 ### Software Engineering 2
 
 - [De RPG voor overerving](overerving).
