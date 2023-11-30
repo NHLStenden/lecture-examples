@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{714CBDAD-2B16-4AB8-841B-32E8F892162F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextServer", "TextServer\TextServer.csproj", "{D949C159-C633-4E0A-BD21-0A7226DBD206}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KwadraatServer", "KwadraatServer\KwadraatServer.csproj", "{64F9201C-9B14-4B0D-81EC-596772BC5212}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{714CBDAD-2B16-4AB8-841B-32E8F892162F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{714CBDAD-2B16-4AB8-841B-32E8F892162F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{714CBDAD-2B16-4AB8-841B-32E8F892162F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{714CBDAD-2B16-4AB8-841B-32E8F892162F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D949C159-C633-4E0A-BD21-0A7226DBD206}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D949C159-C633-4E0A-BD21-0A7226DBD206}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D949C159-C633-4E0A-BD21-0A7226DBD206}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D949C159-C633-4E0A-BD21-0A7226DBD206}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64F9201C-9B14-4B0D-81EC-596772BC5212}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64F9201C-9B14-4B0D-81EC-596772BC5212}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64F9201C-9B14-4B0D-81EC-596772BC5212}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64F9201C-9B14-4B0D-81EC-596772BC5212}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

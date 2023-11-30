@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Sockets.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <Image
+                Source="dotnet_bot.png"
+                SemanticProperties.Description="Cute dot net bot waving hi to you!"
+                HeightRequest="200"
+                HorizontalOptions="Center" />
+
+            <Label
+                Text="Berichtjes verstuur programma"
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="32"
+                HorizontalOptions="Center" />
+
+            <Label
+                Text="Stuurt berichtjes naar port 8080"
+                SemanticProperties.HeadingLevel="Level2"
+                SemanticProperties.Description="Welcome to dot net Multi platform App U I"
+                FontSize="28"
+                HorizontalOptions="Center" />
+            
+            <Editor x:Name="request"
+                    Placeholder="Voer je bericht in"
+                    HeightRequest="250"
+                    FontSize="48" />
+            
+            <Button
+                x:Name="send"
+                Text="Stuur bericht"
+                Clicked="Send_OnClicked"
+                HorizontalOptions="Center"
+                />
+            
+            <Label
+                x:Name="response"
+                Text="Je respons komt hier te staan"
+                FontSize="48"
+                />
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

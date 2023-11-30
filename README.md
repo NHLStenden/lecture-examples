@@ -32,3 +32,12 @@ Stel je voor hoe je dit kunt combineren met Dependency Injection.
 - [De RPG voor overerving](overerving).
 Dit project is een eenvoudige implementatie waarmee je middels overerving
 de `Player` meer aanvallen te geven, bijvoorbeeld door een `Wizard` te maken.
+
+- [Sockets in C#](sockets).
+Dit is een C sharp solution bestaande uit meerdere projecten. `Client` is
+een MAUI applicatie die gebruikt kan worden om TCP berichten naar een server
+te sturen. `TextServer` is een TCP server die alles wat ie ontvangt terugstuurt
+en er `"Hallo, "` voor plakt. Het `KwadraatServer` project geeft het kwadraat
+terug van elk getal dat je stuurt. Je draait dus altijd `Client` en daarnaast
+nog `TextServer` of `KwadraatServer`. Let wel op dat `Client` specifiek is
+gemaakt voor `OS X`.

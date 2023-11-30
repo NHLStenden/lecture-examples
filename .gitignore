@@ -2,3 +2,5 @@ java-en-selenium/target
 selenium-overlappende-elementen/target
 */.idea
 .DS_Store*
+sockets/*/bin
+sockets/*/obj
