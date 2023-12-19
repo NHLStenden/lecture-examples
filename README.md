@@ -27,6 +27,14 @@ Op die manier hoef je geen verbinding te maken met een database en kan je
 toch allerlei tests uitvoeren waarbij het ophalen van een database nodig is.
 Stel je voor hoe je dit kunt combineren met Dependency Injection.
 
+- [LLOC](lloc.py)
+(Logical Lines Of Code) is een metriek/indicator die je kunt gebruiken om
+de kwaliteit van software te bepalen. Dit wordt/is behandeld tijdens een testing
+college. Let wel: dit is een heel eenvoudig voorbeeldje. Je kunt beter kijken
+welke frameworks beschikbaar zijn zoals SonarCube om het serieus aan te pakken.
+Dit is alleen een proef om aantoonbaar te maken hoe je kwaliteit van code kunt
+meten.
+
 ### Software Engineering 2
 
 - [De RPG voor overerving](overerving).
